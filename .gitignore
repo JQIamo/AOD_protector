@@ -16,6 +16,7 @@ _autosave-*
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
+fp-lib-table
 ~*.lck
 \#auto_saved_files#
 
@@ -29,3 +30,8 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# gerbers
+**/gerber/
+**/gerbers/
+*.zip
