@@ -2978,7 +2978,7 @@
 		)
 		(uuid "42bd6553-d5d0-4a9b-bd65-7bff6026958a")
 	)
-	(text "Vth = V*0.384+0.0105\nTuning Range:\nVth_min = 0.100+-0.000 (-6.99+-0.00 dBm)\nVth_max = 0.283+-0.024 (+2.05+-0.7 dBm)"
+	(text "Vth = Vin*0.384+0.0105\nTuning Range:\nVin_min = 0.098+-0.001 (-7.20+-0.09 dBm)\nVin_max = 0.285+-0.024 (+2.10+-0.24 dBm)"
 		(exclude_from_sim no)
 		(at 118.364 157.988 0)
 		(effects
@@ -7113,7 +7113,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "15k"
+		(property "Value" "59k"
 			(at 146.558 171.45 0)
 			(effects
 				(font
@@ -7158,7 +7158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" "TC02G1502BT"
+		(property "Part number" "RT0402BRD0759KL"
 			(at 144.78 167.64 0)
 			(effects
 				(font
@@ -7167,7 +7167,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part" "C20627044"
+		(property "JLCPCB Part" "C852853"
 			(at 144.78 167.64 0)
 			(effects
 				(font
@@ -7482,10 +7482,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a90d52f2-4141-46af-9148-80855b0691ef")
 		(property "Reference" "RV1"
-			(at 152.4 165.1 90)
+			(at 152.4 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7493,7 +7492,7 @@
 			)
 		)
 		(property "Value" "0-100k"
-			(at 152.4 167.64 90)
+			(at 152.4 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8010,7 +8009,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "51k"
+		(property "Value" "1.2M"
 			(at 154.178 151.13 0)
 			(effects
 				(font
@@ -8019,7 +8018,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 151.384 147.066 90)
 			(effects
 				(font
@@ -8055,7 +8054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" "RT0402BRD0751KL"
+		(property "Part number" " MCT0603MD1204BP500"
 			(at 152.4 147.32 0)
 			(effects
 				(font
@@ -8064,7 +8063,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part" "C852828"
+		(property "JLCPCB Part" "C3933664"
 			(at 152.4 147.32 0)
 			(effects
 				(font
